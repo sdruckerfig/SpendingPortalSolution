@@ -1,0 +1,14 @@
+.tradewinds {
+	font: {
+		family: 'Trade Winds', cursive;
+		size: 20px;
+	}
+}
+
+// .capitol {
+//	background-image: url(http://webapps.figleaf.com/capitol.jpg);
+//	background-size: cover;
+//}
+
+@include extjs-toolbar-ui('maintoolbar', $background-color: #E0162B);
+@include extjs-panel-ui('dashboard',$ui-body-background-color: #fff);
