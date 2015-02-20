@@ -6,7 +6,7 @@ Ext.define('SpendingPortal.view.SponsorChart', {
         'Ext.chart.axis.sprite.Axis3D',
         'Ext.chart.series.Bar3D',
         'Ext.chart.axis.Category3D',
-        'Ext.chart.axis.Numeric3D',
+        'Ext.chart.axis.Numeric3D'
     ],
 
     title: 'Compare Expenditures',

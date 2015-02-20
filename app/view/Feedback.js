@@ -63,7 +63,7 @@ Ext.define('SpendingPortal.view.Feedback', {
             store: 'BookChapters',
             valueField: 'id'
         }, {
-            xtype: 'slider',
+            xtype: 'sliderfield',
             anchor: '100%',
             fieldLabel: 'Rating<br />1=poor,10=great',
             name: 'rating',

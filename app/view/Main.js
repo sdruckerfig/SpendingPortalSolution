@@ -44,7 +44,7 @@ Ext.define('SpendingPortal.view.Main', {
                 title: 'Expenditures',
                 items: [{
                     xtype: 'sponsorchart',
-                    header: false,
+                    header: false
                 }]
 
             }
