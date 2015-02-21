@@ -29,7 +29,7 @@ Ext.define('SpendingPortal.model.Sponsor', {
 
     proxy: {
         type: 'jsonp',
-        url: 'http://www.senchatraining.com/ftextjs4/webservices/sponsor.cfc?method=wsBigJSONP',
+        url: 'http://webapps.figleaf.com/ext5lab/sponsor.cfc?method=wsBigJSONP',
         reader: {
             type: 'json',
             rootProperty: 'ROWS',

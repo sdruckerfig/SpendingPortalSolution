@@ -35,7 +35,7 @@ Ext.define('SpendingPortal.model.Earmark', {
 
     proxy: {
         type: 'jsonp',
-        url: 'http://www.senchatraining.com/ftextjs4/webservices/earmark.cfc?method=wsBigJSONP',
+        url: 'http://webapps.figleaf.com/ext5lab/earmark.cfc?method=wsBigJSONP',
         reader: {
             type: 'json',
             rootProperty: 'ROWS',

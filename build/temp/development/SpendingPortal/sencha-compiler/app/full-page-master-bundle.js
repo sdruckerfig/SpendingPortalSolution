@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Library/WebServer/Documents/SpendingPortalSolution/app.js
+// @require /Library/WebServer/Documents/spendingportalsolution/app.js

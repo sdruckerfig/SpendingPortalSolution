@@ -15,6 +15,6 @@ Ext.define('SpendingPortal.model.ChartDatum', {
 
     proxy: {
         type: 'jsonp',
-        url: 'http://www.senchatraining.com/ftextjs4/webservices/earmark.cfc?method=getSponsorStats'
+        url: 'http://webapps.figleaf.com/ext5lab/earmark.cfc?method=getSponsorStats'
     }
 });

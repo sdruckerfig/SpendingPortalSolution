@@ -14,6 +14,9 @@ Ext.define('SpendingPortal.view.Feedback', {
     items: [{
         xtype: 'form',
         header: false,
+        defaults: {
+            allowBlank: false
+        },
         items: [{
             xtype: 'fieldcontainer',
             height: 27,
@@ -77,10 +80,12 @@ Ext.define('SpendingPortal.view.Feedback', {
             style: 'background-color: white;',
             fieldLabel: 'Feedback',
             labelAlign: 'top',
-            name: 'feedback'
+            name: 'feedback',
+            allowBlank: true
         }],
         buttons: [{
             text: 'Submit',
+            formBind: true,
             handler: function(button, event) {
                 var form = button.up('form');
 
