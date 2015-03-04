@@ -1,5 +1,14 @@
 Ext.define('SpendingPortal.view.Feedback', {
     extend: 'Ext.window.Window',
+    requires:[
+        'Ext.form.Panel',
+        'Ext.form.FieldContainer',
+        'Ext.form.field.Text',
+        'Ext.form.field.Date',
+        'Ext.form.field.ComboBox',
+        'Ext.slider.Single',
+        'Ext.form.field.TextArea'
+    ],
     alias: 'widget.feedback',
 
     autoShow: true,
@@ -10,13 +19,14 @@ Ext.define('SpendingPortal.view.Feedback', {
         type: 'fit'
     },
     title: 'Feedback',
-    bodyPadding: 5,
+    bodyPadding: 10,
     items: [{
         xtype: 'form',
         header: false,
         defaults: {
             allowBlank: false
         },
+        layout: 'anchor',
         items: [{
             xtype: 'fieldcontainer',
             height: 27,
